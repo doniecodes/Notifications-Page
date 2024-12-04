@@ -26,16 +26,6 @@ markAllAsRead();
 
 // message preview and close preview
 let messagePreview = ()=>{
-    let notifications = notificationsMain.querySelectorAll('.notification');
-   /*  notifications.forEach((notif)=>{
-        notif.addEventListener('click', (event)=>{
-            let clicked = event.target;
-            if(clicked.classList.contains('private-msg')){
-                console.log(clicked);
-            }
-        })
-    }) */
-
     let msgBox = notificationsMain.querySelector('.msg-box');
     let privateMsg = notificationsMain.querySelector('.private-msg');
     privateMsg.addEventListener('click', ()=>{
@@ -43,3 +33,13 @@ let messagePreview = ()=>{
     })
 }
 messagePreview();
+
+/* current date */
+let currentDate = ()=>{
+    let date = new Date();
+   /*  let dateArray = date.split(" "); */
+    console.log(date);
+    let dateHTML = document.querySelector('.current-date');
+    dateHTML.innerHTML = date;
+}
+currentDate();

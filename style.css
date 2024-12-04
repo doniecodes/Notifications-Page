@@ -216,6 +216,14 @@ body{
     text-decoration: underline;
 }
 
+/* date and time */
+/* .current-date{
+    border-top: 1.5px solid var(--Light-grayish-blue-2);
+    padding-top: 0.8rem;
+    font-size: 0.7rem;
+    text-align: center;
+} */
+
 /* media queries */
 @media (max-width :700px){
     .container{
