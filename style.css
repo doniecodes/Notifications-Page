@@ -117,8 +117,8 @@ body{
    flex-direction: column; 
 }
 .message p{
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 500;
     display: inline;
 }
 .name{
@@ -130,7 +130,7 @@ body{
 .post-name{
     margin-left: 0.3rem;
     color: var(--Dark-grayish-blue);
-    font-weight: 800;
+    font-weight: 700;
 }
 .group-name{
     margin-left: 0.3rem;
@@ -138,7 +138,7 @@ body{
     font-weight: 800;
 }
 .time-sent{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: var(--Grayish-blue);
     font-weight: 500;
     margin-top: 0.1rem;
@@ -169,11 +169,6 @@ body{
     margin-bottom: 0.5rem;
     padding: 0.8rem 1rem;
 }
-.old-notification .message p{
-    font-size: 0.8rem;
-    font-weight: 500;
-    display: inline;
-}
 .msg-box{
     background-color: var(--White);
     padding: 0.8rem;
@@ -188,7 +183,7 @@ body{
 }
 .msg-box-text{
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .msg-box:hover{
     background-color: var(--Light-grayish-blue-1);
